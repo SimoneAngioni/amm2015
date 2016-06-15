@@ -1,0 +1,131 @@
+body{
+    
+}
+
+#menuBar{
+    background-color: rgb(64, 64, 64);
+    height: 620px;
+    width: 218px;
+    float: left;    
+}
+
+#superiorBar{
+    background-color: rgb(64, 64, 64);
+    height: 50px;
+    width: 1100px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+}
+
+#writeBar{
+    background-color: transparent;
+    text-align: center;
+    height: 50px;
+    width: 870px;
+    float: left;
+}
+
+#scrittaBenvenuto{
+    color: lightgrey;
+    margin-top: 10px; 
+    font-size: 24px;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+#logoutBar{
+    background-color: transparent;
+    height: 50px;
+    width: 220px;
+    float: right;
+}
+
+/* fieldset che conterrà l'immagine */
+#initialImage{
+    border: 0px;
+    margin-top: 56px;
+    border-radius: 5px;
+    height: 200px;
+    padding: 4px;
+}
+
+#image{
+    max-height: 205px;
+    max-width: 200;
+}
+
+/*  termine fieldset e immagine
+    
+    
+    
+    inizio stile bottoni
+*/
+
+
+#userLogin{
+    margin-left:2px;
+    margin-top: 20px;
+    line-height: 3em;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    font-weight: bolder;
+    height: 50px; /*altezza bottone */
+    width:  214px;  /*larghezza bottone */    
+}
+
+#adminLogin{
+    margin-left:2px;
+    margin-top: 20px;
+    line-height: 3em;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    font-weight: bolder;
+    height: 50px; /*altezza bottone */
+    width:  214px;  /*larghezza bottone */    
+}
+
+#eventButton{
+    margin-left:2px;
+    margin-top: 20px;
+    line-height: 3em;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    font-weight: bolder;
+    height: 50px; /*altezza bottone */
+    width:  214px;  /*larghezza bottone */  
+}
+
+/* fine bottoni */
+
+#workout{
+    float: left;
+    background-color: transparent;
+    height: 560px;
+    width: 1110px;
+}
+
+#firma{
+    background-color: transparent;
+    height: 50px;
+    width: 1100px;
+    float: right;
+}
+#myTag{
+    color: grey;
+    text-align: center;
+}
+
+#event{
+    height: 91%;
+    width: 100%;
+}
+

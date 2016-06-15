@@ -1,0 +1,33 @@
+/* Lavoro sul dialog che apparirà con lo script */
+
+#dialog{
+	display: none;
+}
+
+#si{
+	line-height: 3em;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    height: 50px;
+    width: 100px;
+    font-weight: bolder;
+    float: left;
+}
+#no{
+	line-height: 3em;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    height: 50px;
+    width: 100px;
+    font-weight: bolder;
+    float: right;
+}
+
+#testoDialog{
+	color: rgb(152,0,0);
+	font-family: fantasy;
+}

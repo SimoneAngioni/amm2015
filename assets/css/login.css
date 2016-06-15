@@ -1,0 +1,206 @@
+body{
+    
+}
+
+#menuBar{
+    background-color: rgb(64, 64, 64);
+    height: 620px;
+    width: 218px;
+    float: left;    
+}
+
+#superiorBar{
+    background-color: rgb(64, 64, 64);
+    height: 50px;
+    width: 1100px;
+    padding: 5px 5px 5px 5px;
+    float: left;
+}
+
+#writeBar{
+    background-color: transparent;
+    text-align: center;
+    height: 50px;
+    width: 870px;
+    float: left;
+}
+
+#indietro{
+    background-color: transparent;
+    height: 50px;
+    width: 220px;
+    float: right;
+}
+
+#goBackButton{
+    height: 3em;
+    line-height: 3em;
+    width: 210px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    height: 50px;   /*altezza bottone */
+    width:  220px;  /*larghezza bottone */
+    font-weight: bolder;
+}
+
+#scrittaBenvenuto{
+    color: lightgrey;
+    margin-top: 10px; 
+    font-size: 24px;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+
+
+#logoutBar{
+    background-color: transparent;
+    height: 50px;
+    width: 220px;
+    float: right;
+}
+
+/* fieldset che conterrà l'immagine */
+#initialImage{
+    border: 0px;
+    margin-top: 56px;
+    border-radius: 5px;
+    height: 200px;
+    padding: 4px;
+}
+
+#image{
+    max-height: 205px;
+    max-width: 205px;
+}
+
+/*  termine fieldset e immagine*/
+    
+    
+    
+ /*   inizio stile bottoni */
+
+
+
+#userLogin{
+    margin-left:2px;
+    margin-top: 20px;
+    line-height: 3em;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    height: 50px; /*altezza bottone */
+    width:  214px;  /*larghezza bottone */   
+    font-weight: bolder; 
+}
+
+#adminLogin{
+    margin-left:2px;
+    margin-top: 20px;
+    line-height: 3em;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    height: 50px; /*altezza bottone */
+    width:  214px;  /*larghezza bottone */   
+    font-weight: bolder; 
+}
+
+/* fine bottoni */
+
+#workout{
+    float: left;
+    background-color: transparent;
+    min-height: 560px;
+    width: 1110px;
+}
+
+/* lavoro sulla tabella del login */
+
+#loginTable{
+    background-color: rgb(64, 64, 64);
+    margin-top: 100px;
+    margin-left: 300px;
+    max-width: 300px;
+    border: 1px solid rgb(0, 127, 255);
+    border-radius: 5px;
+    min-width: 300px;
+    min-height: 250px;
+}
+
+#loginScritta{
+    margin-top: -25px;
+    background-color: transparent;
+    height: 50px;
+    width: 300px;
+}
+
+#scritta{
+    text-align: center;
+    font-size: 24pt;
+    font-family: fantasy;
+    color: lightgrey;
+    font-weight: bolder;
+}
+
+#usernameField{
+    margin-top: 40px;
+    background-color: transparent;
+    height: 50px;
+    width: 300px;
+    padding-left: 7px;
+}
+
+#inputUsername{
+    margin-top: 14px;
+    min-width: 200px;
+    border-radius: 5px;
+}
+#usernameScritta{
+    font-size:12pt;
+    color: lightgrey;
+}
+
+#passwordField{
+    background-color: transparent;
+    height: 50px;
+    width: 300px;
+    padding-left: 7px;
+}
+
+#inputPassword{
+    margin-left: 3px;
+    margin-top: 14px;
+    min-width: 200px;
+    border-radius: 5px;
+}
+#passwordScritta{
+    font-size:12pt;
+    color: lightgrey;
+}
+
+#accediField{
+    margin-left: 120px;
+    margin-top: 10px;
+    background-color: transparent;
+    height: 25px;
+    width: 60px;
+    float: left;
+}
+
+#accediButton{
+    height: 25px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    font-weight: bolder;
+    
+}

@@ -1,0 +1,178 @@
+/*Lavoro sul blocco di lavoro di inserimento record a database */
+
+#modifyField{
+	background-color: transparent;
+	margin-top: 100px;
+	height: 450px;
+	width: 1100px;
+	padding: 5px;
+}
+
+#idField{
+	background-color: transparent;
+	height: 50px;
+	width: 1100px;
+	float: left;
+}
+
+#insertPlate{
+	background-color: transparent;
+	height: 50px;
+	width: 1100px;
+	float: left;
+}
+
+#insertModel{
+	margin-top: 5px;
+	background-color: transparent;
+	height: 50px;
+	width: 1100px;
+	float: left;
+}
+
+#insertImage{
+	margin-top: 5px;
+	background-color: transparent;
+	height: 50px;
+	width: 1100px;
+	float: left;
+}
+
+#insertDescription{
+	margin-top: 5px;
+	background-color: transparent;
+	height: 150px;
+	width: 1100px;
+	float: left;
+	text-align: left;
+}
+
+#insertPrice{
+	margin-top: 5px;
+	background-color: transparent;
+	height: 50px;
+	width: 1100px;
+	float: left;
+}
+
+#buttonSubmit{
+	margin-top: 20px;
+	height: 50px;
+	width: 150px;
+	float: right;
+	font-weight: bolder;
+}
+
+/* Fine lavoro blocco */
+
+/* Inizio lavoro blocchi interni */
+
+#nameField{
+	background-color: transparent;
+	margin: 3px;
+	height: 44px;
+	width: 150px;
+	float: left;
+}
+
+#nomeCampo{
+	text-align: center;
+	font-size: 14pt;
+	font-family: fantasy;
+	margin-top: 12px;
+}
+
+#commonInsertField{
+	background-color: transparent;
+	margin: 3px;
+	height: 44px;
+	width: 900px;
+	float: left;
+}
+
+#descriptionField{
+	background-color: transparent;
+	margin: 3px;
+	height: 144px;
+	width: 900px;
+	float: left;
+}
+
+
+#button{
+    line-height: 3em;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    height: 50px; /*altezza bottone */
+    width: 150px;
+    font-weight: bolder;
+}
+
+#model{
+	height: 44px;
+	width: 900px;
+	font-family: fantasy;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid rgb(0, 127, 255);
+	border-radius: 5px;
+}
+
+#plate{
+	height: 44px;
+	width: 900px;
+	font-family: fantasy;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid rgb(0, 127, 255);
+	border-radius: 5px;
+}
+
+#description{
+	height: 144px;
+	width: 900px;
+	font-family: fantasy;
+	font-size: 14px;
+	border: 1px solid rgb(0, 127, 255);
+	border-radius: 5px;
+}
+
+#img{
+	height: 44px;
+	width: 900px;
+	font-family: fantasy;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid rgb(0, 127, 255);
+	border-radius: 5px;
+}
+
+#price{
+	height: 44px;
+	width: 900px;
+	font-family: fantasy;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid rgb(0, 127, 255);
+	border-radius: 5px;
+}
+
+
+
+/* bottoni */ 
+
+#indietroButton{
+    margin-left:2px;
+    margin-top: 20px;
+    line-height: 3em;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px outset rgb(0, 127, 255);
+    color:rgb(0, 127, 255);
+    height: 50px; /*altezza bottone */
+    width:  214px;
+    font-weight: bolder;
+}
+
