@@ -10,7 +10,7 @@
 		<?php		
 		include "../controllers/function.class.php";
 
-		$con = mysqli_connect('localhost', 'root', '', 'amm15-angionisimone');
+		$con = mysqli_connect('localhost', 'angioniSimone', 'scimmia5742', 'amm15_angioniSimone');
 		if(!$con) {
 			die('impossibile connettersi :' +mysql_error($con));
 		}
