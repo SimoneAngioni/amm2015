@@ -131,7 +131,7 @@
  public function addCarrello($id){
   $this->dbConnect();
   $utente = $_SESSION['utente_id'];
-  $query = "INSERT INTO CARRELLO (id_carrello, veicolo_id, utente_id) VALUES (DEFAULT, '$id', $utente);";
+  $query = "INSERT INTO carrello (id_carrello, veicolo_id, utente_id) VALUES (DEFAULT, '$id', $utente);";
   $res = mysql_query($query, $this->conn);
 
   if(!$res) { mysql_close($this->conn); return false; }

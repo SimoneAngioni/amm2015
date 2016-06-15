@@ -88,7 +88,8 @@
                                             <p id="errorMsg">Non e\' ancora presente nessun veicolo!</p>
                                             </div>
                                             ';
-                    else{ for ($i=0; $i < $nElementiCarrello ; $i++) { 
+                    else{ 
+                        for ($i=0; $i < $nElementiCarrello ; $i++) { 
                             $dati = $classe->recuperoDatiCarrello($i); // --> Funzione all'interno di function.class.php
 
                             $prezzoTot = $prezzoTot + $dati['prezzo'];
