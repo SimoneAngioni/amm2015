@@ -125,7 +125,7 @@
                         </div>
 
                         <div id="priceField">
-                            <input type="name" id="price" name="prezzo" >
+                            <input type="name" id="price" name="prezzo" required="required">
                         </div>
                     </div>
 

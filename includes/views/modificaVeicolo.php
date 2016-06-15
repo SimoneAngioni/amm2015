@@ -101,7 +101,7 @@
                                             </div>
 
                                             <div id="commonInsertField">
-                                                <input type="name" id="model" name="modello" value="'.$dati['modello'].'">
+                                                <input type="name" id="model" name="modello" value="'.$dati['modello'].'" required="required">
                                             </div>
                                         </div>
 
@@ -111,7 +111,7 @@
                                             </div>
 
                                             <div id="commonInsertField">
-                                                <input type="name" id="plate" name="targa"  value="'.$dati['targa'].'">
+                                                <input type="name" id="plate" name="targa"  value="'.$dati['targa'].'" required="required">
                                             </div>
                                         </div>
 
@@ -141,7 +141,7 @@
                                             </div>
 
                                             <div id="commonInsertField">
-                                                <input type="name" id="price" name="prezzo" value="'.$dati['prezzo'].'">
+                                                <input type="name" id="price" name="prezzo" value="'.$dati['prezzo'].'" required="required">
                                             </div>
                                         </div>
 
